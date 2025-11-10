@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-11-10T17:28:32.606751",
+  "operations_count": 10003,
+  "diagnostics": {
+    "system": {
+      "version": "3.0",
+      "mode": "BALANCED",
+      "uptime_seconds": 0.2857203483581543,
+      "total_operations": 10003,
+      "operations_per_second": 35009.75711908731
+    },
+    "physics_axioms": {},
+    "ai_axioms": {},
+    "neural_tier1": {
+      "cache_size": 10,
+      "hit_rate": 0.999000299910027,
+      "total_queries": 10003
+    },
+    "executive_tier2": {
+      "reasoning_count": 3,
+      "relational_operations": 0,
+      "decision_history_size": 0
+    },
+    "humility": {
+      "uncertainty_acknowledgments": 0,
+      "improvement_suggestions": 1,
+      "learning_events": 3,
+      "reminder": "Every problem is a learning opportunity"
+    },
+    "performance": {
+      "average_rate": 49813.3093655074,
+      "peak_rate": 56833.38753387534,
+      "current_rate": 42111.4859437751
+    }
+  },
+  "improvement_suggestions": [
+    {
+      "current": 47290.61551141534,
+      "target": 1000000,
+      "gap": 952709.3844885847,
+      "improvement_needed": "95.3%",
+      "timestamp": "2025-11-10T17:28:32.565206"
+    }
+  ],
+  "learning_events": [
+    {
+      "error": "'SupplyData' object has no attribute 'get'",
+      "context": "critical_query_0",
+      "timestamp": "2025-11-10T17:28:32.578552",
+      "lesson": "Error in critical_query_0: AttributeError"
+    },
+    {
+      "error": "'SupplyData' object has no attribute 'get'",
+      "context": "critical_query_1",
+      "timestamp": "2025-11-10T17:28:32.591859",
+      "lesson": "Error in critical_query_1: AttributeError"
+    },
+    {
+      "error": "'SupplyData' object has no attribute 'get'",
+      "context": "critical_query_2",
+      "timestamp": "2025-11-10T17:28:32.602648",
+      "lesson": "Error in critical_query_2: AttributeError"
+    }
+  ]
+}
